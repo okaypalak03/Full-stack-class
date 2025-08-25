@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application Form</title>
+  <link rel="stylesheet" href="jobApplicationStyling.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Job Application</h2>
+    <form action="/submit" method="post">
+
+      <!-- Personal Info -->
+      <fieldset>
+        <legend>Personal Info</legend>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+
+        <label for="sname">Second Name:</label>
+        <input type="text" id="sname" name="sname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </fieldset>
+
+      <!-- Job Details -->
+      <fieldset>
+        <legend>Job Details</legend>
+        <label for="position">Position Applied:</label>
+        <select id="position" name="position" required>
+          <option value="">-- Select --</option>
+          <option value="developer">Developer</option>
+          <option value="designer">Designer</option>
+          <option value="manager">Manager</option>
+        </select>
+
+        <label for="experience">Years of Experience:</label>
+        <input type="number" id="experience" name="experience" min="0" required>
+      </fieldset>
+
+      <!-- Availability -->
+      <fieldset>
+        <legend>Availability</legend>
+        <label for="start">Available Start Date:</label>
+        <input type="date" id="start" name="start" required>
+
+        <label>Willing to Relocate:</label>
+        <input type="radio" id="yes" name="relocate" value="Yes" required>
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="relocate" value="No">
+        <label for="no">No</label>
+      </fieldset>
+
+      <!-- Submit -->
+      <div class="submit-btn">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

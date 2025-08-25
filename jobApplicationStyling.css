@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background: #f4f7fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+/* Heading */
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Fieldset */
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  color: #4a90e2;
+}
+
+/* Labels and Inputs */
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #4a90e2;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+/* Submit button */
+.submit-btn {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background: #4a90e2;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: #357abd;
+}
