@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Contact Form</title>
+</head>
+<body>
+    <h2>Contact Form</h2>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value ="Reset">
+        <label> Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label>
+        
+        <input type="radio" id="Other" name="gender" value="other" required>
+        <label for="Other">Others</label>
+
+    </form>
+</body>
+</html>
