@@ -1,0 +1,60 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Fieldset and Legend */
+fieldset {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0 10px;
+}
+
+/* Inputs and Select */
+input, select {
+    margin: 8px 0;
+    padding: 6px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    width: auto;
+    margin-left: 10px;
+}
+
+/* List items */
+li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+/* Submit Button - Normal Styling */
+button {
+    background-color: lightgray;
+    color: black;
+    border: 1px solid #333;
+    padding: 6px 12px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobapplication</title>
+    <link rel="stylesheet" href="newjob.css">
+</head>
+<body>
+    <section>
+        <fieldset>
+            <legend>
+                Personal Information
+            </legend>
+            First name:<br/>
+            <input type="text" placeholder="enter 1st name" required><br/>
+            Second name:<br/>
+            <input type="text" placeholder="enter 2nd name" required><br/>
+            E-mail:<br/>
+            <input type="text" placeholder="enter your email" required><br/>
+            Phone no.:<br/>
+            <input type="text" placeholder="enter your contact no." required><br/>
+        </fieldset>
+    </section>
+    <section>
+        <fieldset>
+            <legend>
+                Job Details
+            </legend>
+            Position Applied:<br/>
+            <select required>
+                <option>--SELECT--</option>
+                <option>Manager</option>
+                <option>Designer</option>
+                <option>Developer</option>
+                <option>Software Engineer</option>
+            </select><br/>
+            Year of experience:<br/>
+            <input type="number" min="0" required>
+        </fieldset>
+    </section>
+    <section>
+        <fieldset>
+            <legend>Availability</legend>
+            <li>
+                Available start date:<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" required>
+            </li>
+            <li>
+                Willing to relocate:<br/>
+                <input type="radio" name="relocate" value="Yes" required> YES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="relocate" value="No"> NO
+            </li>
+        </fieldset>
+    </section><br/>
+    <button>Submit Application</button>
+</body>
+</html>
